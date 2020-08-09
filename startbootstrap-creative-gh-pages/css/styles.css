@@ -10530,7 +10530,7 @@ header.masthead {
       rgba(73, 70, 70, 0.8) 0%,
       rgba(10, 10, 10, 0.8) 100%
     ),
-    url("../../../IMAGES/20200405_092042.jpg");
+    url("../assets/img/zemeljska/20200405_092042.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10631,7 +10631,8 @@ header.masthead h1 {
 #portfolio .container-md .portfolio-box .portfolio-box-caption .project-name,
 #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name,
 #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name {
-  font-size: 1.2rem;
+  font-size: 1.7rem;
+  font-weight: 400;
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption,
 #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption,
@@ -10643,4 +10644,20 @@ header.masthead h1 {
 
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
+}
+@media only screen and (max-width: 600px) {
+  #portfolio .container-fluid .portfolio-box .portfolio-box-caption,
+  #portfolio .container-sm .portfolio-box.portfolio-box-caption,
+  #portfolio .container-md .portfolio-box .portfolio-box-caption,
+  #portfolio .container-lg .portfolio-box .portfolio-box-caption,
+  #portfolio .container-xl .portfolio-box .portfolio-box-caption {
+    opacity: 0.6;
+  }
+}
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption,
+#portfolio .container-sm .portfolio-box.portfolio-box-caption,
+#portfolio .container-md .portfolio-box .portfolio-box-caption,
+#portfolio .container-lg .portfolio-box .portfolio-box-caption,
+#portfolio .container-xl .portfolio-box .portfolio-box-caption {
+  background-color: none;
 }
